@@ -1,0 +1,1714 @@
+[
+ {
+  "instanceId": "USB\\VID_05AC&PID_024F&MI_01\\7&FF81860&0&0001",
+  "friendlyName": null,
+  "deviceDesc": "USB Input Device",
+  "class": "HIDClass",
+  "service": "HidUsb",
+  "problem": "\r"
+ },
+ {
+  "instanceId": "ACPI\\PNP0200\\4&100704BB&0",
+  "friendlyName": null,
+  "deviceDesc": "Direct memory access controller",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\DISPLAY\\0000",
+  "friendlyName": null,
+  "deviceDesc": "AnyViewerIddDriver Device",
+  "class": "Display",
+  "service": "WUDFRd",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\PNP0C02\\0",
+  "friendlyName": null,
+  "deviceDesc": "Motherboard resources",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_43C6&SUBSYS_02011B21&REV_01\\4&2C18E2E3&0&020B",
+  "friendlyName": null,
+  "deviceDesc": "PCI Express Upstream Switch Port",
+  "class": "System",
+  "service": "pci",
+  "problem": "\u0002"
+ },
+ {
+  "instanceId": "USB\\VID_05AC&PID_024F&MI_00\\7&FF81860&0&0000",
+  "friendlyName": null,
+  "deviceDesc": "USB Input Device",
+  "class": "HIDClass",
+  "service": "HidUsb",
+  "problem": "\f"
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1444&SUBSYS_00000000&REV_00\\3&11583659&0&C4",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": "\u0004\u0018"
+ },
+ {
+  "instanceId": "HID\\VID_05AC&PID_024F&MI_02&COL02\\8&3A046CE3&0&0001",
+  "friendlyName": null,
+  "deviceDesc": "HID-compliant system controller",
+  "class": "HIDClass",
+  "service": null,
+  "problem": "\u0002"
+ },
+ {
+  "instanceId": "HID\\VID_0DB0&PID_0D08&MI_01&COL02\\8&279F00E9&0&0001",
+  "friendlyName": null,
+  "deviceDesc": "HID Keyboard Device",
+  "class": "Keyboard",
+  "service": "kbdhid",
+  "problem": "\u0002"
+ },
+ {
+  "instanceId": "SWD\\PRINTENUM\\PRINTQUEUES",
+  "friendlyName": "Root Print Queue",
+  "deviceDesc": "Local Print Queue",
+  "class": "PrintQueue",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AMDIF030\\0",
+  "friendlyName": null,
+  "deviceDesc": "AMD GPIO Controller",
+  "class": "System",
+  "service": "amdgpio3",
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\VOLMGR\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Volume Manager",
+  "class": "System",
+  "service": "volmgr",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\PNP0103\\2&DABA3FF&0",
+  "friendlyName": null,
+  "deviceDesc": "High precision event timer",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\PRINTENUM\\WSD-E6E7FA21-1659-4B85-81C4-FA2149755771",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft IPP Class Driver",
+  "class": "Printer",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_43C7&SUBSYS_33061B21&REV_01\\5&20AB19AA&0&00020B",
+  "friendlyName": null,
+  "deviceDesc": "PCI Express Downstream Switch Port",
+  "class": "System",
+  "service": "pci",
+  "problem": ""
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{E7709917-6832-11F1-93C7-18C04D7E504C}#0000000000010000",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "\u000e"
+ },
+ {
+  "instanceId": "UEFI\\RES_{00000000-0000-0000-0000-000000000000}\\0",
+  "friendlyName": null,
+  "deviceDesc": "System Firmware",
+  "class": "Firmware",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\MSRRAS\\MS_PPPOEMINIPORT",
+  "friendlyName": "WAN Miniport (PPPOE)",
+  "deviceDesc": "WAN Miniport (PPPOE)",
+  "class": "Net",
+  "service": "RasPppoe",
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\VMBUS\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft Hyper-V Virtual Machine Bus Provider",
+  "class": "System",
+  "service": "vmbusr",
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1441&SUBSYS_00000000&REV_00\\3&11583659&0&C1",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": "\u0001\u0018"
+ },
+ {
+  "instanceId": "ROOT\\BASICDISPLAY\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft Basic Display Driver",
+  "class": "System",
+  "service": "BasicDisplay",
+  "problem": null
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{3CB35BB5-8D42-44D1-868D-4EE53AD6B531}",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "\u000b"
+ },
+ {
+  "instanceId": "ACPI\\PNP0C14\\GSADEV0",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft Windows Management Interface for ACPI",
+  "class": "System",
+  "service": "WmiAcpi",
+  "problem": null
+ },
+ {
+  "instanceId": "USB\\VID_05AC&PID_024F\\6&3AF0F9CE&0&12",
+  "friendlyName": null,
+  "deviceDesc": "USB Composite Device",
+  "class": "USB",
+  "service": "usbccgp",
+  "problem": "\f"
+ },
+ {
+  "instanceId": "HDAUDIO\\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1458A182&REV_1003\\5&18339B10&0&0001",
+  "friendlyName": "Realtek(R) Audio",
+  "deviceDesc": "Realtek High Definition Audio",
+  "class": "MEDIA",
+  "service": "IntcAzAudAddService",
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "ROOT\\AMDXE\\0000",
+  "friendlyName": null,
+  "deviceDesc": "AMD Controller Emulation",
+  "class": "System",
+  "service": "AMDXE",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AMDI0030\\0",
+  "friendlyName": null,
+  "deviceDesc": "AMD GPIO Controller",
+  "class": "System",
+  "service": "amdgpio2",
+  "problem": null
+ },
+ {
+  "instanceId": "HDAUDIO\\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1008\\7&191C4C73&0&0001",
+  "friendlyName": null,
+  "deviceDesc": "AMD High Definition Audio Device",
+  "class": "MEDIA",
+  "service": "AtiHDAudioService",
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "ROOT\\VMS_VSMP\\0000",
+  "friendlyName": "Hyper-V Virtual Switch Extension Adapter",
+  "deviceDesc": "Hyper-V Virtual Switch Extension Adapter",
+  "class": "Net",
+  "service": "VMSMP",
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\VMS_VSMP\\0001",
+  "friendlyName": "Hyper-V Virtual Switch Extension Adapter #2",
+  "deviceDesc": "Hyper-V Virtual Switch Extension Adapter",
+  "class": "Net",
+  "service": "VMSMP",
+  "problem": null
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{FCAC32F5-6861-11F1-93C2-806E6F6E6963}#0000000007500000",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "\u0003"
+ },
+ {
+  "instanceId": "ACPI\\THERMALZONE\\TZ10",
+  "friendlyName": null,
+  "deviceDesc": "ACPI Thermal Zone",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "UMB\\UMB\\1&841921D&0&TERMINPUT_BUS",
+  "friendlyName": null,
+  "deviceDesc": "UMBus Enumerator",
+  "class": "System",
+  "service": "umbus",
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\MSRRAS\\{5E259276-BC7E-40E3-B93B-8F89B5F3ABC0}",
+  "friendlyName": "Microsoft RRAS Root Enumerator",
+  "deviceDesc": "Generic software device",
+  "class": "SoftwareDevice",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_148A&SUBSYS_148A1022&REV_00\\4&D573D7&0&0039",
+  "friendlyName": null,
+  "deviceDesc": "AMD PCI",
+  "class": "System",
+  "service": "AMDPCIDev",
+  "problem": ""
+ },
+ {
+  "instanceId": "SWD\\MMDEVAPI\\{0.0.0.00000000}.{4E88A2DE-FD10-4B04-913F-0E9536FD73B8}",
+  "friendlyName": "1 - MSI MP243X (AMD High Definition Audio Device)",
+  "deviceDesc": "Audio Endpoint",
+  "class": "AudioEndpoint",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1002&DEV_AB28&SUBSYS_AB281002&REV_00\\6&2C9CE418&0&01000019",
+  "friendlyName": null,
+  "deviceDesc": "High Definition Audio Bus",
+  "class": "System",
+  "service": "HDAudBus",
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "ACPI\\PNP0C02\\4&1FDE7688&0",
+  "friendlyName": null,
+  "deviceDesc": "Motherboard resources",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\MMDEVAPI\\{0.0.0.00000000}.{24839513-36B8-4E67-9EC1-A4AA6D2A1CE7}",
+  "friendlyName": "5 - LG ULTRAGEAR (AMD High Definition Audio Device)",
+  "deviceDesc": "Audio Endpoint",
+  "class": "AudioEndpoint",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "USB\\VID_0DB0&PID_0D08&MI_01\\7&E2471D3&0&0001",
+  "friendlyName": null,
+  "deviceDesc": "USB Input Device",
+  "class": "HIDClass",
+  "service": "HidUsb",
+  "problem": "\u0005"
+ },
+ {
+  "instanceId": "ROOT\\VMWARE\\0000",
+  "friendlyName": "VMware Virtual Ethernet Adapter for VMnet1",
+  "deviceDesc": "VMware Virtual Ethernet Adapter for VMnet1",
+  "class": "Net",
+  "service": "VMnetAdapter",
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\VMWARE\\0001",
+  "friendlyName": "VMware Virtual Ethernet Adapter for VMnet8",
+  "deviceDesc": "VMware Virtual Ethernet Adapter for VMnet8",
+  "class": "Net",
+  "service": "VMnetAdapter",
+  "problem": null
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{FCAC32FB-6861-11F1-93C2-806E6F6E6963}#0000000000100000",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "\n"
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1483&SUBSYS_12341022&REV_00\\3&11583659&0&09",
+  "friendlyName": null,
+  "deviceDesc": "PCI Express Root Port",
+  "class": "System",
+  "service": "pci",
+  "problem": "\u0001\u0001"
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1483&SUBSYS_12341022&REV_00\\3&11583659&0&0B",
+  "friendlyName": null,
+  "deviceDesc": "PCI Express Root Port",
+  "class": "System",
+  "service": "pci",
+  "problem": "\u0003\u0001"
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1483&SUBSYS_12341022&REV_00\\3&11583659&0&19",
+  "friendlyName": null,
+  "deviceDesc": "PCI Express Root Port",
+  "class": "System",
+  "service": "pci",
+  "problem": "\u0001\u0003"
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1480&SUBSYS_14801022&REV_00\\3&11583659&0&00",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": ""
+ },
+ {
+  "instanceId": "SWD\\PRINTENUM\\{CC453651-7366-4FE8-9F3A-885B64549104}",
+  "friendlyName": "Fax",
+  "deviceDesc": "Local Print Queue",
+  "class": "PrintQueue",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_43C7&SUBSYS_33061B21&REV_01\\5&20AB19AA&0&08020B",
+  "friendlyName": null,
+  "deviceDesc": "PCI Express Downstream Switch Port",
+  "class": "System",
+  "service": "pci",
+  "problem": ""
+ },
+ {
+  "instanceId": "SWD\\MSRRAS\\MS_PPTPMINIPORT",
+  "friendlyName": "WAN Miniport (PPTP)",
+  "deviceDesc": "WAN Miniport (PPTP)",
+  "class": "Net",
+  "service": "PptpMiniport",
+  "problem": null
+ },
+ {
+  "instanceId": "USB\\VID_0DB0&PID_0D08&MI_00\\7&E2471D3&0&0000",
+  "friendlyName": null,
+  "deviceDesc": "USB Input Device",
+  "class": "HIDClass",
+  "service": "HidUsb",
+  "problem": "\u0004"
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_790E&SUBSYS_50011458&REV_51\\3&11583659&0&A3",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard ISA bridge",
+  "class": "System",
+  "service": "msisadrv",
+  "problem": "\u0003\u0014"
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1484&SUBSYS_14841022&REV_00\\3&11583659&0&39",
+  "friendlyName": null,
+  "deviceDesc": "PCI Express Root Port",
+  "class": "System",
+  "service": "pci",
+  "problem": "\u0001\u0007"
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1484&SUBSYS_14841022&REV_00\\3&11583659&0&41",
+  "friendlyName": null,
+  "deviceDesc": "PCI Express Root Port",
+  "class": "System",
+  "service": "pci",
+  "problem": "\u0001\b"
+ },
+ {
+  "instanceId": "ROOT\\VID\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft Hyper-V Virtualization Infrastructure Driver",
+  "class": "System",
+  "service": "Vid",
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\MMDEVAPI\\{0.0.0.00000000}.{4B298DC3-F938-4D39-BCAD-850052E145EC}",
+  "friendlyName": "Realtek Digital Output (Realtek(R) Audio)",
+  "deviceDesc": "Audio Endpoint",
+  "class": "AudioEndpoint",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\MSRRAS\\MS_AGILEVPNMINIPORT",
+  "friendlyName": "WAN Miniport (IKEv2)",
+  "deviceDesc": "WAN Miniport (IKEv2)",
+  "class": "Net",
+  "service": "RasAgileVpn",
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\COMPOSITEBUS\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Composite Bus Enumerator",
+  "class": "System",
+  "service": "CompositeBus",
+  "problem": null
+ },
+ {
+  "instanceId": "HID\\VID_05AC&PID_024F&MI_02&COL03\\8&3A046CE3&0&0002",
+  "friendlyName": null,
+  "deviceDesc": "HID Keyboard Device",
+  "class": "Keyboard",
+  "service": "kbdhid",
+  "problem": "\u0003"
+ },
+ {
+  "instanceId": "ROOT\\VDRVROOT\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft Virtual Drive Enumerator",
+  "class": "System",
+  "service": "vdrvroot",
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_43D5&SUBSYS_11421B21&REV_01\\4&2C18E2E3&0&000B",
+  "friendlyName": "AMD USB 3.10 eXtensible Host Controller - 1.10 (Microsoft)",
+  "deviceDesc": "USB xHCI Compliant Host Controller",
+  "class": "USB",
+  "service": "USBXHCI",
+  "problem": ""
+ },
+ {
+  "instanceId": "HID\\VID_0DB0&PID_0D08&MI_01&COL03\\8&279F00E9&0&0002",
+  "friendlyName": null,
+  "deviceDesc": "HID-compliant consumer control device",
+  "class": "HIDClass",
+  "service": null,
+  "problem": "\u0003"
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_43C7&SUBSYS_33061B21&REV_01\\5&20AB19AA&0&20020B",
+  "friendlyName": null,
+  "deviceDesc": "PCI Express Downstream Switch Port",
+  "class": "System",
+  "service": "pci",
+  "problem": ""
+ },
+ {
+  "instanceId": "ROOT\\SPACEPORT\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft Storage Spaces Controller",
+  "class": "SCSIAdapter",
+  "service": "spaceport",
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1446&SUBSYS_00000000&REV_00\\3&11583659&0&C6",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": "\u0006\u0018"
+ },
+ {
+  "instanceId": "PCI\\VEN_1002&DEV_1479&SUBSYS_14791002&REV_00\\5&238E1C1D&0&000019",
+  "friendlyName": "AMD PCI Express Downstream Switch Port",
+  "deviceDesc": "PCI Express Downstream Switch Port",
+  "class": "System",
+  "service": "pci",
+  "problem": ""
+ },
+ {
+  "instanceId": "ACPI\\PNP0501\\0",
+  "friendlyName": "Communications Port (COM1)",
+  "deviceDesc": "Communications Port",
+  "class": "Ports",
+  "service": "Serial",
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\KDNIC\\0000",
+  "friendlyName": "Microsoft Kernel Debug Network Adapter",
+  "deviceDesc": "Microsoft Kernel Debug Network Adapter",
+  "class": "Net",
+  "service": "kdnic",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\THERMALZONE\\UAD0",
+  "friendlyName": null,
+  "deviceDesc": "ACPI Thermal Zone",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "STORAGE\\VOLUMESNAPSHOT\\HARDDISKVOLUMESNAPSHOT1",
+  "friendlyName": null,
+  "deviceDesc": "Generic volume shadow copy",
+  "class": "VolumeSnapshot",
+  "service": null,
+  "problem": ""
+ },
+ {
+  "instanceId": "STORAGE\\VOLUMESNAPSHOT\\HARDDISKVOLUMESNAPSHOT2",
+  "friendlyName": null,
+  "deviceDesc": "Generic volume shadow copy",
+  "class": "VolumeSnapshot",
+  "service": null,
+  "problem": ""
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_790B&SUBSYS_50011458&REV_61\\3&11583659&0&A0",
+  "friendlyName": null,
+  "deviceDesc": "AMD SMBus",
+  "class": "System",
+  "service": null,
+  "problem": ""
+ },
+ {
+  "instanceId": "ROOT\\AMDSAFD&FUN_01&REV_01\\0000",
+  "friendlyName": null,
+  "deviceDesc": "AMD Streaming Audio Device",
+  "class": "MEDIA",
+  "service": "AMDSAFD",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\PNP0800\\4&100704BB&0",
+  "friendlyName": null,
+  "deviceDesc": "System speaker",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1002&DEV_73FF&SUBSYS_E4511DA2&REV_C7\\6&2C9CE418&0&00000019",
+  "friendlyName": null,
+  "deviceDesc": "AMD Radeon RX 6600",
+  "class": "Display",
+  "service": "amduw23g-201163-242f9a0a",
+  "problem": ""
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{FCAC32F5-6861-11F1-93C2-806E6F6E6963}#0000000006500000",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "\u0002"
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{FCAC32F5-6861-11F1-93C2-806E6F6E6963}#000000E8B2200000",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "\u0004"
+ },
+ {
+  "instanceId": "UMB\\UMB\\1&841921D&0&TS_USB_HUB_ENUMERATOR",
+  "friendlyName": null,
+  "deviceDesc": "UMBus Enumerator",
+  "class": "System",
+  "service": "umbus",
+  "problem": null
+ },
+ {
+  "instanceId": "DISPLAY\\MSI40B5\\7&12513EE0&0&UID256",
+  "friendlyName": null,
+  "deviceDesc": "Generic PnP Monitor",
+  "class": "Monitor",
+  "service": "monitor",
+  "problem": "\u0100"
+ },
+ {
+  "instanceId": "DISPLAY\\MSI40B5\\7&12513EE0&0&UID268",
+  "friendlyName": null,
+  "deviceDesc": "Generic PnP Monitor",
+  "class": "Monitor",
+  "service": "monitor",
+  "problem": "\u010c"
+ },
+ {
+  "instanceId": "DISPLAY\\GSM5B73\\7&12513EE0&0&UID260",
+  "friendlyName": null,
+  "deviceDesc": "Generic PnP Monitor",
+  "class": "Monitor",
+  "service": "monitor",
+  "problem": "\u0104"
+ },
+ {
+  "instanceId": "ROOT\\VKRNLINTVSP\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft Hyper-V NT Kernel Integration VSP",
+  "class": "System",
+  "service": "vkrnlintvsp",
+  "problem": null
+ },
+ {
+  "instanceId": "UEFI\\RES_{F5536E63-E4C0-4E0D-84D4-E8E152B1BA65}\\0",
+  "friendlyName": null,
+  "deviceDesc": "Device Firmware",
+  "class": "Firmware",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "USB\\ROOT_HUB30\\5&4087D53&0&0",
+  "friendlyName": null,
+  "deviceDesc": "USB Root Hub (USB 3.0)",
+  "class": "USB",
+  "service": "USBHUB3",
+  "problem": ""
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1443&SUBSYS_00000000&REV_00\\3&11583659&0&C3",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": "\u0003\u0018"
+ },
+ {
+  "instanceId": "SWD\\WINTUN\\{37217669-42DA-4657-A55B-0D995D328250}",
+  "friendlyName": "Tailscale Tunnel",
+  "deviceDesc": "Tailscale Tunnel",
+  "class": "Net",
+  "service": "wintun",
+  "problem": null
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{FCAC32F6-6861-11F1-93C2-806E6F6E6963}#0000000000004400",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "\u0005"
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1482&SUBSYS_00000000&REV_00\\3&11583659&0&08",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": ""
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1482&SUBSYS_00000000&REV_00\\3&11583659&0&10",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": ""
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1482&SUBSYS_00000000&REV_00\\3&11583659&0&18",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": ""
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1482&SUBSYS_00000000&REV_00\\3&11583659&0&20",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": ""
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1482&SUBSYS_00000000&REV_00\\3&11583659&0&28",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": ""
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1482&SUBSYS_00000000&REV_00\\3&11583659&0&38",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": ""
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1482&SUBSYS_00000000&REV_00\\3&11583659&0&40",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": ""
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{FCAC32FA-6861-11F1-93C2-806E6F6E6963}#0000000000100000",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "&"
+ },
+ {
+  "instanceId": "USB\\VID_0951&PID_1666\\60A44C425324F161C9960191",
+  "friendlyName": null,
+  "deviceDesc": "USB Mass Storage Device",
+  "class": "USB",
+  "service": "USBSTOR",
+  "problem": "\u0005"
+ },
+ {
+  "instanceId": "ROOT\\UMBUS\\0000",
+  "friendlyName": null,
+  "deviceDesc": "UMBus Root Bus Enumerator",
+  "class": "System",
+  "service": "umbus",
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\MMDEVAPI\\{0.0.1.00000000}.{C487CAF5-86A3-4D98-8B7B-963C2307CD99}",
+  "friendlyName": "Microphone (Realtek(R) Audio)",
+  "deviceDesc": "Audio Endpoint",
+  "class": "AudioEndpoint",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\PNP0100\\4&100704BB&0",
+  "friendlyName": null,
+  "deviceDesc": "System timer",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "HID\\VID_05AC&PID_024F&MI_02&COL04\\8&3A046CE3&0&0003",
+  "friendlyName": null,
+  "deviceDesc": "HID-compliant system multi-axis controller",
+  "class": "HIDClass",
+  "service": null,
+  "problem": "\u0004"
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{FCAC32F6-6861-11F1-93C2-806E6F6E6963}#0000000008100000",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "\u0006"
+ },
+ {
+  "instanceId": "SWD\\DRIVERENUM\\AMDOCL&7&12513EE0&0",
+  "friendlyName": null,
+  "deviceDesc": "AMD-OpenCL User Mode Driver",
+  "class": "SoftwareComponent",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\RADIO\\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2}",
+  "friendlyName": "Microsoft Radio Device Enumeration Bus",
+  "deviceDesc": "Generic software device",
+  "class": "SoftwareDevice",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\MMDEVAPI\\{0.0.0.00000000}.{65B3E80E-1683-4ECE-A97E-6248B749E38C}",
+  "friendlyName": "Speakers (Realtek(R) Audio)",
+  "deviceDesc": "Audio Endpoint",
+  "class": "AudioEndpoint",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\PNP0C01\\C8",
+  "friendlyName": null,
+  "deviceDesc": "System board",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\MSDAS\\{CE958E9A-424F-4C88-86F4-11314821E75A}",
+  "friendlyName": "Microsoft Device Association Root Enumerator",
+  "deviceDesc": "Generic software device",
+  "class": "SoftwareDevice",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\ACPI_HAL\\0000",
+  "friendlyName": null,
+  "deviceDesc": "ACPI x64-based PC",
+  "class": "Computer",
+  "service": "\\Driver\\ACPI_HAL",
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_43C8&SUBSYS_10621B21&REV_01\\4&2C18E2E3&0&010B",
+  "friendlyName": null,
+  "deviceDesc": "Standard SATA AHCI Controller",
+  "class": "HDC",
+  "service": "storahci",
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "SWD\\MSRRAS\\MS_NDISWANBH",
+  "friendlyName": "WAN Miniport (Network Monitor)",
+  "deviceDesc": "WAN Miniport (Network Monitor)",
+  "class": "Net",
+  "service": "NdisWan",
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\MSRRAS\\MS_NDISWANIP",
+  "friendlyName": "WAN Miniport (IP)",
+  "deviceDesc": "WAN Miniport (IP)",
+  "class": "Net",
+  "service": "NdisWan",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\PNP0C14\\AOD",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft Windows Management Interface for ACPI",
+  "class": "System",
+  "service": "WmiAcpi",
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\DRIVERENUM\\AMDFDANS&7&12513EE0&0",
+  "friendlyName": null,
+  "deviceDesc": "AMD-Dynamic Audio Noise Supression",
+  "class": "SoftwareComponent",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\PRINTENUM\\{49375B49-D3DB-4097-87F9-1F8501528321}",
+  "friendlyName": "Microsoft Print to PDF",
+  "deviceDesc": "Local Print Queue",
+  "class": "PrintQueue",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\PNP0A08\\0",
+  "friendlyName": null,
+  "deviceDesc": "PCI Express Root Complex",
+  "class": "System",
+  "service": "pci",
+  "problem": ""
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1440&SUBSYS_00000000&REV_00\\3&11583659&0&C0",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": ""
+ },
+ {
+  "instanceId": "SCSI\\DISK&VEN_NVME&PROD_KINGSTON_SNV3S10\\5&2C5FCE03&0&000000",
+  "friendlyName": "KINGSTON SNV3S1000G",
+  "deviceDesc": "Disk drive",
+  "class": "DiskDrive",
+  "service": "disk",
+  "problem": ""
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1487&SUBSYS_A1821458&REV_00\\4&1FDE7688&0&0441",
+  "friendlyName": null,
+  "deviceDesc": "High Definition Audio Controller",
+  "class": "System",
+  "service": "HDAudBus",
+  "problem": "\u0004"
+ },
+ {
+  "instanceId": "ROOT\\VPCIVSP\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft Hyper-V PCI Server",
+  "class": "System",
+  "service": "vpcivsp",
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\DRIVERENUM\\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKAPO&6&5964CE9&0",
+  "friendlyName": "Realtek Audio Effects Component",
+  "deviceDesc": "Realtek Audio Effects Component",
+  "class": "SoftwareComponent",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI_HAL\\PNP0C08\\0",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft ACPI-Compliant System",
+  "class": "System",
+  "service": "ACPI",
+  "problem": null
+ },
+ {
+  "instanceId": "HTREE\\ROOT\\0",
+  "friendlyName": null,
+  "deviceDesc": null,
+  "class": null,
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\BASICRENDER\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft Basic Render Driver",
+  "class": "System",
+  "service": "BasicRender",
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_149C&SUBSYS_50071458&REV_00\\4&1FDE7688&0&0341",
+  "friendlyName": "AMD USB 3.10 eXtensible Host Controller - 1.10 (Microsoft)",
+  "deviceDesc": "USB xHCI Compliant Host Controller",
+  "class": "USB",
+  "service": "USBXHCI",
+  "problem": "\u0003"
+ },
+ {
+  "instanceId": "HID\\VID_05AC&PID_024F&MI_00\\8&13A43467&0&0000",
+  "friendlyName": null,
+  "deviceDesc": "HID Keyboard Device",
+  "class": "Keyboard",
+  "service": "kbdhid",
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "UMB\\UMB\\1&841921D&0&RDCAMERA_BUS",
+  "friendlyName": "Remote Desktop Camera Bus",
+  "deviceDesc": "UMBus Enumerator",
+  "class": "System",
+  "service": "umbus",
+  "problem": null
+ },
+ {
+  "instanceId": "UMB\\UMB\\1&841921D&0&TSBUS",
+  "friendlyName": null,
+  "deviceDesc": "UMBus Enumerator",
+  "class": "System",
+  "service": "umbus",
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\MSRRAS\\MS_SSTPMINIPORT",
+  "friendlyName": "WAN Miniport (SSTP)",
+  "deviceDesc": "WAN Miniport (SSTP)",
+  "class": "Net",
+  "service": "RasSstp",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI_HAL\\UEFI\\0",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft UEFI-Compliant System",
+  "class": "System",
+  "service": "UEFI",
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1485&SUBSYS_14851022&REV_00\\4&1FDE7688&0&0041",
+  "friendlyName": null,
+  "deviceDesc": "AMD PCI",
+  "class": "System",
+  "service": "AMDPCIDev",
+  "problem": ""
+ },
+ {
+  "instanceId": "SWD\\WPDBUSENUM\\{FCAC32FD-6861-11F1-93C2-806E6F6E6963}#0000000000100000",
+  "friendlyName": "Windows Bitch",
+  "deviceDesc": "DataTraveler 3.0",
+  "class": "WPD",
+  "service": "WUDFWpdFs",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\MSFT0101\\1",
+  "friendlyName": null,
+  "deviceDesc": "Trusted Platform Module 2.0",
+  "class": "SecurityDevices",
+  "service": "TPM",
+  "problem": null
+ },
+ {
+  "instanceId": "USBSTOR\\DISK&VEN_KINGSTON&PROD_DATATRAVELER_3.0&REV_\\60A44C425324F161C9960191&0",
+  "friendlyName": "Kingston DataTraveler 3.0 USB Device",
+  "deviceDesc": "Disk drive",
+  "class": "DiskDrive",
+  "service": "disk",
+  "problem": "\u0005"
+ },
+ {
+  "instanceId": "ACPI\\FIXEDBUTTON\\2&DABA3FF&0",
+  "friendlyName": null,
+  "deviceDesc": "ACPI Fixed Feature Button",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\PRINTENUM\\{73305166-DDF1-4456-9AAA-0B5E44ECABE8}",
+  "friendlyName": "OneNote (Desktop)",
+  "deviceDesc": "Local Print Queue",
+  "class": "PrintQueue",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SCSI\\DISK&VEN_&PROD_ST2000VN000-1HJ1\\5&2B637674&0&000000",
+  "friendlyName": "ST2000VN000-1HJ164",
+  "deviceDesc": "Disk drive",
+  "class": "DiskDrive",
+  "service": "disk",
+  "problem": "\uffff"
+ },
+ {
+  "instanceId": "UEFI\\RES_{F766F6E6-B43D-4ACD-A4BD-80FF2F0AF5CC}\\0",
+  "friendlyName": null,
+  "deviceDesc": "Device Firmware",
+  "class": "Firmware",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "USB\\VID_0DB0&PID_0D08\\6&2838F1DC&0&4",
+  "friendlyName": null,
+  "deviceDesc": "USB Composite Device",
+  "class": "USB",
+  "service": "usbccgp",
+  "problem": "\u0004"
+ },
+ {
+  "instanceId": "SCSI\\DISK&VEN_&PROD_ST1000DM010-2EP1\\5&2B637674&0&040000",
+  "friendlyName": "ST1000DM010-2EP102",
+  "deviceDesc": "Disk drive",
+  "class": "DiskDrive",
+  "service": "disk",
+  "problem": "\uffff\u0004"
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{FCAC32FA-6861-11F1-93C2-806E6F6E6963}#000000E8D8DB1E00",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "'"
+ },
+ {
+  "instanceId": "PCI\\VEN_1002&DEV_1478&SUBSYS_00000000&REV_C7\\4&1FC990D7&0&0019",
+  "friendlyName": "AMD PCI Express Upstream Switch Port",
+  "deviceDesc": "PCI Express Upstream Switch Port",
+  "class": "System",
+  "service": "pci",
+  "problem": ""
+ },
+ {
+  "instanceId": "HID\\VID_05AC&PID_024F&MI_01\\8&26D450A5&0&0000",
+  "friendlyName": null,
+  "deviceDesc": "HID-compliant mouse",
+  "class": "Mouse",
+  "service": "mouhid",
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1445&SUBSYS_00000000&REV_00\\3&11583659&0&C5",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": "\u0005\u0018"
+ },
+ {
+  "instanceId": "ACPI\\PNP0C02\\15",
+  "friendlyName": null,
+  "deviceDesc": "Motherboard resources",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\PNP0C02\\90",
+  "friendlyName": null,
+  "deviceDesc": "Motherboard resources",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\PNP0C02\\91",
+  "friendlyName": null,
+  "deviceDesc": "Motherboard resources",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "HID\\VID_05AC&PID_024F&MI_02&COL05\\8&3A046CE3&0&0004",
+  "friendlyName": null,
+  "deviceDesc": "HID-compliant vendor-defined device",
+  "class": "HIDClass",
+  "service": null,
+  "problem": "\u0005"
+ },
+ {
+  "instanceId": "SWD\\DRIVERENUM\\AMDWIN&7&12513EE0&0",
+  "friendlyName": null,
+  "deviceDesc": "AMD-Windows Support Components",
+  "class": "SoftwareComponent",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_10EC&DEV_8168&SUBSYS_E0001458&REV_16\\4C507E4DC018000000",
+  "friendlyName": "Realtek Gaming GbE Family Controller",
+  "deviceDesc": "Realtek Gaming GbE Family Controller",
+  "class": "Net",
+  "service": "rt640x64",
+  "problem": ""
+ },
+ {
+  "instanceId": "ROOT\\VMWVMCIHOSTDEV\\0000",
+  "friendlyName": null,
+  "deviceDesc": "VMware VMCI Host Device",
+  "class": "System",
+  "service": "vmci",
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\DRIVERENUM\\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKSRV&6&5964CE9&0",
+  "friendlyName": "Realtek Audio Universal Service",
+  "deviceDesc": "Realtek Audio Universal Service",
+  "class": "SoftwareComponent",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\STORVSP\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft Hyper-V Virtual Disk Server",
+  "class": "System",
+  "service": "storvsp",
+  "problem": null
+ },
+ {
+  "instanceId": "HID\\VID_05AC&PID_024F&MI_03\\8&3B95E2D1&0&0000",
+  "friendlyName": null,
+  "deviceDesc": "HID-compliant vendor-defined device",
+  "class": "HIDClass",
+  "service": null,
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "SWD\\MMDEVAPI\\{0.0.0.00000000}.{B67D5DD5-53B4-4541-9FF6-4A36BE838943}",
+  "friendlyName": "2 - MSI MP243X (AMD High Definition Audio Device)",
+  "deviceDesc": "Audio Endpoint",
+  "class": "AudioEndpoint",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SCSI\\DISK&VEN_&PROD_KIOXIA-EXCERIA_S\\5&2B637674&0&010000",
+  "friendlyName": "KIOXIA-EXCERIA SATA SSD",
+  "deviceDesc": "Disk drive",
+  "class": "DiskDrive",
+  "service": "disk",
+  "problem": "\uffff\u0001"
+ },
+ {
+  "instanceId": "SWD\\XVDDENUM\\XVDDROOTDEVICE_INSTANCE",
+  "friendlyName": null,
+  "deviceDesc": "Xvdd SCSI Miniport",
+  "class": "SCSIAdapter",
+  "service": "Xvdd",
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\WPDBUSENUM\\{FCAC32FD-6861-11F1-93C2-806E6F6E6963}#000000039A23E400",
+  "friendlyName": "RUFUS_BOOT",
+  "deviceDesc": "DataTraveler 3.0",
+  "class": "WPD",
+  "service": "WUDFWpdFs",
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\MMDEVAPI\\MICROSOFTGSWAVETABLESYNTH",
+  "friendlyName": "Microsoft GS Wavetable Synth",
+  "deviceDesc": "Generic software device",
+  "class": "SoftwareDevice",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\PNP0C0C\\AA",
+  "friendlyName": null,
+  "deviceDesc": "ACPI Power Button",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "TS_USB_HUB_ENUMERATOR\\UMB\\2&30D3618&0&TS_USB_HUB",
+  "friendlyName": null,
+  "deviceDesc": "Remote Desktop USB Hub",
+  "class": "System",
+  "service": "tsusbhub",
+  "problem": null
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1442&SUBSYS_00000000&REV_00\\3&11583659&0&C2",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": "\u0002\u0018"
+ },
+ {
+  "instanceId": "ROOT\\SYNTH3DVSP\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft RemoteFX Synth3D VSP Driver",
+  "class": "System",
+  "service": "Synth3dVsp",
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\ESCL\\CFE92100-67C4-11D4-A45F-50579CDEAE68",
+  "friendlyName": null,
+  "deviceDesc": "EPSON WF-4820 Series",
+  "class": "Image",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{FCAC32FD-6861-11F1-93C2-806E6F6E6963}#0000000000100000",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "\f"
+ },
+ {
+  "instanceId": "SCSI\\DISK&VEN_&PROD_KIOXIA-EXCERIA_S\\5&2B637674&0&050000",
+  "friendlyName": "KIOXIA-EXCERIA SATA SSD",
+  "deviceDesc": "Disk drive",
+  "class": "DiskDrive",
+  "service": "disk",
+  "problem": "\uffff\u0005"
+ },
+ {
+  "instanceId": "ROOT\\VMS_MP\\0000",
+  "friendlyName": "Hyper-V Virtual Ethernet Adapter",
+  "deviceDesc": "Hyper-V Virtual Ethernet Adapter",
+  "class": "Net",
+  "service": "VMSNPXYMP",
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\VMS_MP\\0001",
+  "friendlyName": "Hyper-V Virtual Ethernet Adapter #2",
+  "deviceDesc": "Hyper-V Virtual Ethernet Adapter",
+  "class": "Net",
+  "service": "VMSNPXYMP",
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\VMS_MP\\0002",
+  "friendlyName": "Hyper-V Virtual Ethernet Adapter #3",
+  "deviceDesc": "Hyper-V Virtual Ethernet Adapter",
+  "class": "Net",
+  "service": "VMSNPXYMP",
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\VMS_MP\\0003",
+  "friendlyName": "Hyper-V Virtual Ethernet Adapter #4",
+  "deviceDesc": "Hyper-V Virtual Ethernet Adapter",
+  "class": "Net",
+  "service": "VMSNPXYMP",
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\VMS_MP\\0004",
+  "friendlyName": "Hyper-V Virtual Ethernet Adapter #5",
+  "deviceDesc": "Hyper-V Virtual Ethernet Adapter",
+  "class": "Net",
+  "service": "VMSNPXYMP",
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\AMDLOG\\0000",
+  "friendlyName": null,
+  "deviceDesc": "AMD Crash Defender",
+  "class": "System",
+  "service": "amdfendrmgr",
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\NDISVIRTUALBUS\\0000",
+  "friendlyName": null,
+  "deviceDesc": "NDIS Virtual Network Adapter Enumerator",
+  "class": "System",
+  "service": "NdisVirtualBus",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_0",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_1",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_2",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_3",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_4",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_5",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_6",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_7",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_8",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_9",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_A",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_B",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_C",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_D",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_E",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\AUTHENTICAMD_-_AMD64_FAMILY_25_MODEL_33_-_AMD_RYZEN_7_5700X3D_8-CORE_PROCESSOR___________\\_F",
+  "friendlyName": "AMD Ryzen 7 5700X3D 8-Core Processor           ",
+  "deviceDesc": "AMD Processor",
+  "class": "Processor",
+  "service": "AmdPPM",
+  "problem": null
+ },
+ {
+  "instanceId": "HID\\VID_0DB0&PID_0D08&MI_00\\8&3ACF1D27&0&0000",
+  "friendlyName": null,
+  "deviceDesc": "HID-compliant mouse",
+  "class": "Mouse",
+  "service": "mouhid",
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "PCI\\VEN_2646&DEV_5025&SUBSYS_50252646&REV_00\\4&2B5FE750&0&0009",
+  "friendlyName": null,
+  "deviceDesc": "Standard NVM Express Controller",
+  "class": "SCSIAdapter",
+  "service": "stornvme",
+  "problem": ""
+ },
+ {
+  "instanceId": "{8E7BD593-6E6C-4C52-86A6-77175494DD8E}\\MSVHDHBA\\1&3030E83&0&01",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft VHD Loopback Controller",
+  "class": "SCSIAdapter",
+  "service": "vhdmp",
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1486&SUBSYS_14861022&REV_00\\4&1FDE7688&0&0141",
+  "friendlyName": null,
+  "deviceDesc": "AMD PSP 11.0 Device",
+  "class": "SecurityDevices",
+  "service": "amdpsp",
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "HID\\VID_05AC&PID_024F&MI_02&COL01\\8&3A046CE3&0&0000",
+  "friendlyName": null,
+  "deviceDesc": "HID-compliant consumer control device",
+  "class": "HIDClass",
+  "service": null,
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "ACPI\\PNP0C02\\700",
+  "friendlyName": null,
+  "deviceDesc": "Motherboard resources",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\PNP0B00\\4&100704BB&0",
+  "friendlyName": null,
+  "deviceDesc": "System CMOS/real time clock",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "HID\\VID_0DB0&PID_0D08&MI_01&COL01\\8&279F00E9&0&0000",
+  "friendlyName": null,
+  "deviceDesc": "HID-compliant vendor-defined device",
+  "class": "HIDClass",
+  "service": null,
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{FCAC32F8-6861-11F1-93C2-806E6F6E6963}#0000006FC8600000",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "\u0007"
+ },
+ {
+  "instanceId": "SWD\\IPP\\CFE92100-67C4-11D4-A45F-50579CDEAE68",
+  "friendlyName": "EPSON WF-4820 Series",
+  "deviceDesc": "EPSON WF-4820 Series",
+  "class": "SoftwareDevice",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\PRINTENUM\\{214672F0-E744-4506-93A6-330F01A94C21}",
+  "friendlyName": "EPSON WF-4820 Series",
+  "deviceDesc": "Local Print Queue",
+  "class": "PrintQueue",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "ROOT\\MSSMBIOS\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Microsoft System Management BIOS Driver",
+  "class": "System",
+  "service": "mssmbios",
+  "problem": null
+ },
+ {
+  "instanceId": "ACPI\\PNP0000\\4&100704BB&0",
+  "friendlyName": null,
+  "deviceDesc": "Programmable interrupt controller",
+  "class": "System",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "SWD\\DRIVERENUM\\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKHSA&6&5964CE9&0",
+  "friendlyName": "Realtek Hardware Support Application",
+  "deviceDesc": "Realtek Hardware Support Application",
+  "class": "SoftwareComponent",
+  "service": null,
+  "problem": null
+ },
+ {
+  "instanceId": "HID\\VID_05AC&PID_024F&MI_04\\8&2865C693&0&0000",
+  "friendlyName": null,
+  "deviceDesc": "HID-compliant vendor-defined device",
+  "class": "HIDClass",
+  "service": null,
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "USB\\ROOT_HUB30\\5&23F8E3F5&0&0",
+  "friendlyName": null,
+  "deviceDesc": "USB Root Hub (USB 3.0)",
+  "class": "USB",
+  "service": "USBHUB3",
+  "problem": ""
+ },
+ {
+  "instanceId": "PCI\\VEN_1022&DEV_1447&SUBSYS_00000000&REV_00\\3&11583659&0&C7",
+  "friendlyName": null,
+  "deviceDesc": "PCI standard host CPU bridge",
+  "class": "System",
+  "service": null,
+  "problem": "\u0007\u0018"
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{FCAC32FD-6861-11F1-93C2-806E6F6E6963}#000000039A23E400",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "\r"
+ },
+ {
+  "instanceId": "ROOT\\SYSTEM\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Plug and Play Software Device Enumerator",
+  "class": "System",
+  "service": "swenum",
+  "problem": null
+ },
+ {
+  "instanceId": "USB\\VID_05AC&PID_024F&MI_04\\7&FF81860&0&0004",
+  "friendlyName": null,
+  "deviceDesc": "USB Input Device",
+  "class": "HIDClass",
+  "service": "HidUsb",
+  "problem": "\u0010"
+ },
+ {
+  "instanceId": "ROOT\\RDPBUS\\0000",
+  "friendlyName": null,
+  "deviceDesc": "Remote Desktop Device Redirector Bus",
+  "class": "System",
+  "service": "rdpbus",
+  "problem": null
+ },
+ {
+  "instanceId": "USB\\VID_05AC&PID_024F&MI_03\\7&FF81860&0&0003",
+  "friendlyName": null,
+  "deviceDesc": "USB Input Device",
+  "class": "HIDClass",
+  "service": "HidUsb",
+  "problem": "\u000f"
+ },
+ {
+  "instanceId": "SWD\\MSRRAS\\MS_NDISWANIPV6",
+  "friendlyName": "WAN Miniport (IPv6)",
+  "deviceDesc": "WAN Miniport (IPv6)",
+  "class": "Net",
+  "service": "NdisWan",
+  "problem": null
+ },
+ {
+  "instanceId": "SCSI\\DISK&VEN_MSFT&PROD_VIRTUAL_DISK\\2&1F4ADFFE&0&000001",
+  "friendlyName": "Microsoft Virtual Disk",
+  "deviceDesc": "Disk drive",
+  "class": "DiskDrive",
+  "service": "disk",
+  "problem": ""
+ },
+ {
+  "instanceId": "STORAGE\\VOLUME\\{FCAC32F5-6861-11F1-93C2-806E6F6E6963}#0000000000100000",
+  "friendlyName": null,
+  "deviceDesc": "Volume",
+  "class": "Volume",
+  "service": "volume",
+  "problem": "\u0001"
+ },
+ {
+  "instanceId": "USB\\VID_05AC&PID_024F&MI_02\\7&FF81860&0&0002",
+  "friendlyName": null,
+  "deviceDesc": "USB Input Device",
+  "class": "HIDClass",
+  "service": "HidUsb",
+  "problem": "\u000e"
+ },
+ {
+  "instanceId": "SWD\\MSRRAS\\MS_L2TPMINIPORT",
+  "friendlyName": "WAN Miniport (L2TP)",
+  "deviceDesc": "WAN Miniport (L2TP)",
+  "class": "Net",
+  "service": "Rasl2tp",
+  "problem": null
+ }
+]
