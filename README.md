@@ -1,97 +1,110 @@
-# phonewatch
+<div align="center">
+	<img width=140 src="assets/cover.svg" />
+	<h2>phonewatch</h2>
+</div>
 
-**A live device-state monitor for Windows** — watches USB devices, COM ports, and
-handle-holding processes, and tells you *what state your phone is actually in*.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)]()
+[![Platform](https://img.shields.io/badge/platform-Windows%20x64-0078D6.svg?style=flat-square)]()
+[![Language](https://img.shields.io/badge/language-Rust-orange.svg?style=flat-square)]()
+[![Runtime deps](https://img.shields.io/badge/runtime%20deps-zero-brightgreen.svg?style=flat-square)]()
 
-Built while debugging why a Galaxy A13 in Download Mode was invisible to every flashing
-tool. The answer turned out to be a host driver problem, and finding it required seeing the
-device's state change in real time rather than inferring it from failed commands.
+### Paranoid fast USB state tracking.
+
+A live device-state monitor for Windows that tells you what your phone is actually doing, not what you hoped it was doing. It watches USB nodes, COM ports, and the processes that might be holding a handle open, then writes a JSON snapshot you can read, diff, or feed to a dashboard.
+
+Written while trying to work out why a Galaxy A13 in Download Mode was invisible to every flashing tool on the machine. The answer turned out to be a host driver problem, and finding it required watching the device's state change in real time instead of inferring it from failed commands.
 
 ---
 
-## What it does
+### What does this do?
 
-Polls Windows for device state and writes a JSON snapshot you can watch, diff, or feed to a
-dashboard:
+Polls Windows for device state and reports it:
 
-```console
+```
 $ phonewatch --once
 phonewatch - live device-state monitor
-  state   : <REPO_ROOT>\phonewatch\state.json
-  history : <REPO_ROOT>\phonewatch\history.jsonl
+  state   : state.json
+  history : history.jsonl
 --- pnp cross-check (Get-PnpDevice) ---
 Get-PnpDevice target rows: 0
 SetupAPI target rows:     0
 agreement: OK (every Get-PnpDevice target row was found by SetupAPI)
 --- end cross-check ---
-[    1] mode=absent            devs=0  svc=-            com=[\Device\Serial0] procs=[brokkr] lan=down warn=2
+[    1] mode=absent   devs=0  svc=-  com=[\Device\Serial0] procs=[] lan=down warn=1
 ```
 
-### Device modes it distinguishes
+The modes it can tell apart:
 
 | Mode | Meaning |
 |---|---|
 | `absent` | not on the bus at all |
-| `download` | Download Mode (`04E8:685D`) — Odin/flash target |
+| `download` | Download Mode (`04E8:685D`), the Odin/flash target |
 | `mtp_or_adb` | normal Android (`04E8:6860`) |
-| `descriptor_failed` | **electrically present but descriptors unreadable** (`0000:0002`) |
-| `google` | fastboot / Android composite |
+| `descriptor_failed` | **electrically present, descriptors unreadable** (`0000:0002`) |
+| `google` | fastboot or Android composite |
 
-That fourth one is why this exists. `VID_0000&PID_0002` means Windows sees the device's
-electrical signature and **cannot read its descriptors** — a state no other tool names, and
-one that looks identical to "unplugged" if you only check for known IDs.
+That fourth one is the reason this exists. `VID_0000&PID_0002` means Windows can see the device's electrical signature and cannot read its descriptors. No other tool names that state, and it looks identical to "unplugged" if you only check for known IDs.
 
 ---
 
-## The bug worth reading about
+### Two bugs worth reading about
 
-An early version reported `absent` for a phone that was **sitting right there**.
+Both of these shipped in early versions, and both looked like working software.
+
+#### The prefix bug
 
 ```rust
 extract_id() stripped the "VID_"/"PID_" prefix,
 but classify() compared the STRIPPED value against the PREFIXED constants.
 
-=> those comparisons could NEVER be true.
+=> every comparison was false, permanently.
 ```
 
-A healthy Samsung device was reported absent, every single time. The
-descriptor-failure path still worked — via a problem-code fallback — so the tool
-**appeared functional** while silently lying about the main case.
+A healthy Samsung device was reported `absent` on every single poll. The descriptor-failure path still worked through a problem-code fallback, so the tool appeared functional while quietly lying about the main case.
 
-`extract_id()` now **parses** rather than splits naively: it takes only the second
-`\`-separated component (the hardware ID), splits that on `&`, and returns the token *with*
-its prefix. There's a regression test covering all three target classes.
+`extract_id()` now parses instead of splitting naively. It takes only the second backslash-separated component (the hardware ID), splits that on `&`, and returns the token with its prefix intact. There is a regression test covering all three target classes.
 
-**Lesson embedded in the code:** *a plausible-looking value is not a measured one.*
+#### The zombie bug
 
-**Also embedded in the code:** a code comment that says, in full, *"A process merely
-existing is not enough to be a threat."* Which is true of processes, and of most things.
+A terminated but unreaped process still shows up in `tasklist` and `Get-Process`, so an earlier version flagged a ghost `brokkr` as a USB handle risk forever.
 
-### The zombie-process bug
-
-A terminated-but-unreaped process still appears in `tasklist` and `Get-Process`, so an
-earlier version flagged a ghost `brokkr` as a USB-handle risk **forever**.
-
-A zombie has **zero threads** and an **empty executable path** — it cannot hold a handle.
-It now requires *both* a non-empty path and at least one thread:
+A zombie has zero threads and an empty executable path. It cannot hold a handle. The check now requires both a non-empty path and at least one thread:
 
 ```rust
 let is_zombie = threads <= 0 || path.is_empty();
 ```
 
-The ghost was still there after the fix; the tool just stopped lying about it.
+The ghost was still there afterwards. The tool just stopped lying about it.
 
 ---
 
-## Output
+### How do I use it?
+
+```powershell
+cargo build --release
+target\release\phonewatch.exe --once
+```
+
+| Flag | Default | Meaning |
+|---|---|---|
+| `--state PATH` | `state.json` | snapshot output |
+| `--history PATH` | `history.jsonl` | rolling history |
+| `--interval-ms N` | `2000` | poll interval |
+| `--once` | off | single pass and exit |
+| `--adb` | **off** | enable adb polling (see below) |
+
+#### Why `--adb` is off by default
+
+On Windows, `adb.exe` binds the Android interface GUID and will steal the handle from any other client. During this project that produced a real `libusb_open failed: Access (Access denied)` which took a while to identify. For USB work, run `adb kill-server` first and leave it dead.
+
+---
+
+### Output
 
 | File | Contents |
 |---|---|
-| `state.json` | current snapshot — devices, COM ports, processes, LAN reachability, warnings |
+| `state.json` | devices, COM ports, processes, LAN reachability, warnings |
 | `history.jsonl` | append-only history, trimmed to a rolling window |
-
-The JSON is consumed by [**klabsat**](https://github.com/Weeabo-Inc/klabsat), the
-companion dashboard.
 
 ```json
 {
@@ -105,61 +118,67 @@ companion dashboard.
 }
 ```
 
----
-
-## Why it uses SetupAPI directly
-
-`pnp.rs` (~1000 lines) talks to SetupAPI via `windows-sys` rather than shelling out to
-`Get-PnpDevice`, for two reasons:
-
-1. **A cross-check.** It queries the same devices both ways and reports any disagreement —
-   `agreement: OK` is a real assertion, not a print statement.
-2. **Enumerating 214 nodes in ~260 ms** is fast enough to poll continuously, which
-   PowerShell cmdlets are not.
-
-**Note on `windows-sys` versions:** `HDEVINFO` is `isize` in *every* release (0.52–0.61),
-so `.is_null()` can never work on it. And `DEVPROPKEY` moved from
-`Win32::Devices::Properties` to `Win32::Foundation` in 0.60+. This crate pins **0.59**.
+The JSON is consumed by [**klabsat**](https://github.com/Weeabo-Inc/klabsat).
 
 ---
 
-## Options
+### How it works under the hood
+
+#### SetupAPI, not PowerShell
+
+`pnp.rs` (around 1000 lines) talks to SetupAPI through `windows-sys` rather than shelling out to `Get-PnpDevice`. Two reasons:
+
+1. **Cross-checking.** It queries the same devices both ways and reports any disagreement. `agreement: OK` is a real assertion, not a print statement.
+2. **Speed.** Enumerating 214 nodes in roughly 260 ms is fast enough to poll continuously. PowerShell cmdlets are not.
+
+#### A note on windows-sys versions
+
+`HDEVINFO` is `isize` in every release from 0.52 to 0.61, so `.is_null()` can never work on it. `DEVPROPKEY` moved from `Win32::Devices::Properties` to `Win32::Foundation` in 0.60 and later. This crate pins **0.59**, which is the last version where the existing code type-checks without a rewrite.
+
+---
+
+### What it can and can't do
+
+**Can do:**
+- Classify device mode, including the descriptor-failure state
+- Map COM ports and attribute them to devices
+- Identify processes holding USB handles, with zombie filtering
+- Cross-check its own enumeration against a second API
+- Emit machine-readable snapshots
+
+**Can't do:**
+- Flash, erase, or write anything to a device. It observes only.
+- Run without SetupAPI, so this is Windows-only
+- Recover a device whose descriptors are unreadable. It reports the state, it cannot fix it.
+
+---
+
+### Project layout
 
 ```
---state PATH       state.json output path
---history PATH     history.jsonl output path
---interval-ms N    poll interval (default 2000)
---once             single pass and exit
---adb              enable adb polling (default OFF — see below)
-```
-
-**`--adb` is off by default and that is deliberate.** On Windows, `adb.exe` binds the
-Android interface GUID and will **steal the handle** from any other client. During this
-project that caused a real `libusb_open failed: Access (Access denied)` that took a while to
-identify. For USB work: `adb kill-server` first, and leave it dead.
-
----
-
-## Building
-
-```console
-$ cargo build --release
-$ cargo test --release
-test result: ok. 6 passed; 0 failed
+phonewatch/
+├── assets/
+│   └── cover.svg
+├── src/
+│   ├── main.rs        polling loop, state assembly, CLI
+│   └── pnp.rs         SetupAPI enumeration, classification, cross-check
+├── Cargo.toml
+└── Cargo.lock
 ```
 
 ---
 
-## Scope, honestly
+### Credits
 
-**Solid:** device mode classification, descriptor-failure detection, COM port mapping,
-process attribution with zombie filtering, SetupAPI/Get-PnpDevice cross-checking,
-`state.json` / `history.jsonl` output.
+- [windows-sys](https://github.com/microsoft/windows-rs) for the Win32 bindings
+- [Twemoji](https://github.com/twitter/twemoji) for the cover art, CC BY 4.0
+- The SetupAPI documentation, which is drier than this README
 
-**Deliberately not a flasher.** It observes and reports; it never writes to a device.
+---
 
-**Known limitation:** `adb` polling is opt-in because it conflicts with libusb clients.
-
-## License
-
-MIT
+<div align="center">
+	<br/>
+	<i>read only by design. it watches, it does not touch.</i>
+	<br/>
+	<sub>built for a phone that would not talk to anything.</sub>
+</div>
